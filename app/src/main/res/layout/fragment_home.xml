@@ -1,0 +1,153 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.lloyddsilva.brunomarsartist.ui.HomeFragment"
+android:background="#FFF" android:id="@+id/tableLayout" android:shrinkColumns="1"
+android:stretchColumns="1" android:padding="5dp">
+
+    <!-- tableRow0 -->
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow0"
+        android:layout_marginTop="24dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/artistPhotoImageView"
+            android:layout_gravity="center" android:paddingTop="10dp"
+            android:layout_span="2"
+            android:src="@drawable/brunomars"
+            android:contentDescription="@string/artist_name" />
+
+    </TableRow>
+
+    <!-- tableRow1 -->
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow1"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/artist_name"
+            android:id="@+id/lblArtistName"
+            android:gravity="center" android:paddingTop="20dp"
+            android:layout_span="2"/>
+
+    </TableRow>
+
+
+    <!-- tableRow2 -->
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/website"
+            android:id="@+id/lblWebsite"
+            android:gravity="center" android:paddingTop="15dp"
+            android:layout_span="2"/>
+
+    </TableRow>
+
+    <!-- tableRow3 -->
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/contact_number"
+            android:id="@+id/lblContactNumber"
+            android:gravity="center" android:paddingTop="15dp"
+            android:layout_span="2"/>
+
+    </TableRow>
+
+    <!-- tableRow4 -->
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/email_address"
+            android:id="@+id/lblEmailAddress"
+            android:gravity="center" android:paddingTop="15dp"
+            android:layout_span="2"/>
+
+    </TableRow>
+
+    <!-- tableRow5 -->
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow5">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/likes"
+            android:id="@+id/lblLikes"
+            android:gravity="center" android:paddingTop="15dp"
+            android:layout_span="2"/>
+
+    </TableRow>
+
+    <!-- tableRow6 -->
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow6">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/dislikes"
+            android:id="@+id/lblDislikes"
+            android:gravity="center" android:paddingTop="15dp"
+            android:layout_span="2"/>
+
+    </TableRow>
+
+    <!-- tableRow7 -->
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow7">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/date_of_birth"
+            android:id="@+id/lblDateOfBirth"
+            android:gravity="center" android:paddingTop="15dp"
+            android:layout_span="2"/>
+
+    </TableRow>
+
+    <!-- tableRow8 -->
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow8">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/facebook_link"
+            android:id="@+id/lblFacebookLink"
+            android:gravity="center" android:paddingTop="15dp"
+            android:layout_span="2"/>
+
+    </TableRow>
+
+    <!-- tableRow9 -->
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow9">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/twitter_link"
+            android:id="@+id/lblTwitterLink"
+            android:gravity="center" android:paddingTop="15dp"
+            android:layout_span="2"/>
+
+    </TableRow>
+
+
+</TableLayout>

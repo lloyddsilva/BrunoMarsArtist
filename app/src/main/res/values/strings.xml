@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Bruno Mars</string>
+
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Songs</string>
+    <string name="title_section3">Videos</string>
+    <string name="title_section4">Wallpaper</string>
+    <string name="title_section5">Mailing List</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="artist_name">Bruno Mars</string>
+    <string name="website">Website: http://www.brunomars.com</string>
+    <string name="contact_number">Phone: (650) 123-4567</string>
+    <string name="email_address">Email: bruno@brunomars.com</string>
+    <string name="likes">Likes: Dogs, Cats, Rabbits, Turtles</string>
+    <string name="dislikes">Dislikes: Books, Star Trek</string>
+    <string name="date_of_birth">Date of Birth: October 8, 1985</string>
+    <string name="facebook_link">https://www.facebook.com/brunomars</string>
+    <string name="twitter_link">https://twitter.com/BrunoMars</string>
+
+    <string name="lazy_day">Lazy Day</string>
+    <string name="treasure">Treasure</string>
+    <string name="uptown">Uptown Funk</string>
+
+    <string name="songs">Songs</string>
+    <string name="play">Play</string>
+    <string name="restart">Restart</string>
+    <string name="pause">Pause</string>
+
+    <string name="videos">Videos</string>
+
+    <string name="join_mailing_list">Join our Mailing List</string>
+    <string name="join">Join</string>
+
+    <string name="set_wallpaper">Set Wallpaper</string>
+
+</resources>
